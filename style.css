@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+}
+
+/* Container styling */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Input box for task entry */
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+/* Input field styling */
+.input-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+/* Add button */
+.input-box button {
+    background: lightcoral;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* Task list items */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Task text */
+li span {
+    flex: 1;
+    cursor: pointer;
+}
+
+/* Task delete button */
+li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+}
+
+/* Completed task style */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
